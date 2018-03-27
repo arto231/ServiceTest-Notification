@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView_showConnectionResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <Button
+        android:id="@+id/btn_startService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="StartService" />
+
+    <Button
+        android:id="@+id/btn_StopService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="StopService" />
+
+    <Button
+        android:id="@+id/btn_BindService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BindService" />
+
+    <Button
+        android:id="@+id/btn_UnbindService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UnbindService" />
+
+    <Button
+        android:id="@+id/btn_ConnectionService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ConnectionService&amp;Activity" />
+
+    <Button
+        android:id="@+id/btn_SendNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SendNotification" />
+     <Button
+        android:id="@+id/btn_Stop_Notification_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop_Notification_update" />
+
+</LinearLayout>
